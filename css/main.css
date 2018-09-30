@@ -1,0 +1,193 @@
+/***** BASE STYLES *****/
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: black;
+  color: white;
+}
+
+header {
+  height: 800px;
+}
+
+#portfolio {
+    height: 1400px;
+}
+
+#about {
+    height: 550px;
+}
+
+#contact {
+    height: 400px;
+}
+
+.subheader {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 36px;
+    color: #fa0075;
+    text-align: center;
+}
+
+/***** GRID *****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/***** HEADER *****/
+
+header {
+    background-image: url(../img/hero-background.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+header p {
+    font-size: 30px;
+}
+
+nav {
+    float: right;
+    padding: 15px 0px 0px;
+    word-spacing: 30px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a {
+    color: white;
+    text-transform: lowercase;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+header h1 {
+   font-family: 'Source Code Pro', monospace;
+   font-size: 60px;
+   clear: both;
+   padding: 200px 0 0 50px;
+   width: 600px;
+}
+
+header span {
+   color: #fa0075;
+}
+
+/***** PORTFOLIO *****/
+
+.rogue-image {
+  width: 500px;
+  float: left;
+  padding: 50px;
+
+}
+
+.rogue-pickings {
+    width: 500px;
+    float: left;
+    padding: 25px 50px;
+}
+
+.rogue-pickings h3 {
+    line-height: 8px;
+}
+
+.rogue-pickings p {
+    line-height: 26px;
+}
+
+.jubilee-austen {
+  width: 500px;
+  float: left;
+  clear: left;
+  padding: 25px 50px;
+}
+
+.jubilee-austen h3 {
+    line-height: 8px;
+}
+
+.jubilee-austen p {
+    line-height: 26px;
+}
+
+.jubilee-image {
+  width: 500px;
+  float: left;
+  padding: 50px;
+}
+
+.holstee-image {
+  width: 500px;
+  float: left;
+  padding: 50px;
+}
+
+.holstee {
+    width: 500px;
+    float: left;
+    padding: 25px 50px;
+}
+
+.holstee h3 {
+    line-height: 8px;
+}
+
+.holstee p {
+    line-height: 26px;
+}
+
+
+/***** ABOUT *****/
+
+#about {
+  background-image: url(../img/about-me.png);
+  color: black;
+}
+
+#about .subheader {
+  line-height: 100px;
+}
+
+#about h3 {
+  padding: 0 650px 0 50px;
+}
+
+#about p {
+  padding: 0 700px 0 50px;
+  line-height: 28px;
+}
+
+/***** CONTACT *****/
+
+.third-width {
+  text-align: center;
+}
+
+.third-width a {
+  text-decoration: none;
+  color: white;
+}
+
+.third-width img {
+  padding: 0 18px 0 18px;
+}
+
+#copyright {
+  text-align: center;
+  line-height: 175px;
+}
